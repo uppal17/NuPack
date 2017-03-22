@@ -17,6 +17,6 @@ Dependencies:  Testing Framework: JUnit4
 
 Steps to run tests from Command Line: 
 
-1.  C:\WORKSPACE_PATH>javac MarkupCalculator.java
-2.  C:\WORKSPACE_PATH>javac -cp ".;ABSOLUTE_PATH_TO_JUNIT_JAR;" MarkupCalculatorTest.java RunTestsFromCommandLine.java
-3.  C:\WORKSPACE_PATH>java -cp .;ABSOLUTE_PATH_TO_JUNIT_JAR; RunTestsFromCommandLine
+1.  C:\WORKSPACE_PATH>javac -cp .;ABSOLUTE_PATH_TO_JUNIT_JAR; MarkupCalculator.java MarkupCalculatorTest.java RunTestsFromCommandLine.java
+2.  C:\WORKSPACE_PATH>java -cp .;ABSOLUTE_PATH_TO_JUNIT_JAR; RunTestsFromCommandLine
+
