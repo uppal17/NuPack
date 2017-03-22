@@ -14,6 +14,7 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 @SuiteClasses(MarkupCalculatorTest.class)
 public class RunTestsFromCommandLine {
+	
    public static void main(String[] args) {
 	   
       Result result = JUnitCore.runClasses(MarkupCalculatorTest.class);
